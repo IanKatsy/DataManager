@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "api/steam.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+        { "src": "/api/steam", "dest": "api/steam.py" }
+    ]
+}
