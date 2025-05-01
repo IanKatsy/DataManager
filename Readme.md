@@ -23,7 +23,9 @@ GET /api/steam?steam-url=https://steamcommunity.com/id/username
 Deploying on Vercel
 Clone this repo.
 Install dependencies:
-shpip install -r requirements.txt
+```sh
+pip install -r requirements.txt
+```
 
 
 Deploy to Vercel (import your repo, no extra config needed).
@@ -41,5 +43,6 @@ Python 3.8+
 Flask
 requests
 beautifulsoup4
+flask-cors
 ### License
 MIT
