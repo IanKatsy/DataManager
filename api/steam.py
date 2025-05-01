@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
-@app.route('/api/steam/')
+@app.route('/api/steam')
 def steam_avatar():
 
     url = request.args.get('steam-url')
